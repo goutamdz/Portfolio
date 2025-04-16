@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../assets/profile.jpeg"; // Adjust the path as necessary
 
-const Home = () => {
+const HeroPage = () => {
   return (
     <div className="min-h-screen bg-[#1b1d1f] flex items-center justify-center text-white px-4">
       <div className="text-center">
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HeroPage;

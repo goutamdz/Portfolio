@@ -1,18 +1,23 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import SkillsSection from './components/SkillsSection';
-import Contact from './components/Contact';
-import About from './components/About';
-import Education from './components/Education';
+import Home from './pages/Home';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import About from './pages/About';
+import Certificate from './pages/certificate';
+
+
+
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <SkillsSection/>
-      <Contact/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/projects' element={<Home/>}/>
+          <Route path='/certificates' element={<Certificate/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

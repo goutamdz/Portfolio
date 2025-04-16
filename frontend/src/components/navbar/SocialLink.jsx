@@ -6,9 +6,9 @@ function SocialLink({className}) {
             <div
                 
             ><i className="ri-linkedin-box-fill text-2xl"></i></div>
-            <div><i class="ri-github-fill text-2xl"></i></div>
-            <div><i class="ri-external-link-line text-2xl"></i></div>
-            <div><i class="ri-moon-fill text-xl rounded-full border p-1"></i></div>
+            <div><i className="ri-github-fill text-2xl"></i></div>
+            <div><i className="ri-external-link-line text-2xl"></i></div>
+            <div><i className="ri-moon-fill text-xl rounded-full border p-1"></i></div>
 
         </div>
     )

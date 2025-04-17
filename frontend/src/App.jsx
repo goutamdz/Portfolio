@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './pages/Home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import About from './pages/About';
-import Certificate from './pages/certificate';
+import Certificate from './pages/Certificate';
 import Project from './pages/Project';
 
 

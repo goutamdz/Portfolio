@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import CertificatesSection from '../components/CertificatesSection'
 
-function certificate() {
+function Certificate() {
   return (
     <>
         <Navbar/>
@@ -11,4 +11,4 @@ function certificate() {
   )
 }
 
-export default certificate
+export default Certificate

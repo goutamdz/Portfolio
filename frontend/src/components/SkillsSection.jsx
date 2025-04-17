@@ -6,6 +6,7 @@ import {
   SiTypescript, SiNextdotjs, SiTailwindcss, SiC, SiCplusplus,
   SiDjango, SiMysql, SiFirebase, SiSupabase,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 size={24} /> },
@@ -33,13 +34,17 @@ const SkillsSection = () => {
       <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">My Top Skills</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-6xl mx-auto">
         {skills.map((skill, index) => (
-          <div
+          <motion.div
             key={index}
             className="flex items-center gap-4 border border-gray-600 rounded-md px-5 py-3 hover:bg-white hover:text-black transition-all duration-300"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.2 }}
           >
             <div>{skill.icon}</div>
             <div className="font-medium">{skill.name}</div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

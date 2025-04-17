@@ -1,5 +1,4 @@
 import React from 'react';
-import questSearch from "../assets/quest.png"
 
 const projects = [
     {

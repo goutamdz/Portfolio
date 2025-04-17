@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-20 px-4 md:px-12 bg-[#0d0d0d] text-white">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-20 px-4 md:px-12 bg-gradient-to-r from-[#1a1a1a] to-[#000000] text-white">
+      <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4">Get in touch</h2>
         <p className="text-center text-gray-300 mb-10">
           Is there something on your mind you'd like to talk about? Whether it's related to work or just a casual conversation, I am here and ready to listen. Please don't hesitate to reach out to me at any time. 📞

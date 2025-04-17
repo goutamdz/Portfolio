@@ -2,7 +2,7 @@ import React from "react";
 import ExperienceCard from './ExperienceCard'
 import school from "../assets/school.png"
 import university from "../assets/university.png"
-import Jharkhand from "../assets/jharkhand.png"
+import Jharkhand from "../assets/Jharkhand.png"
 
 // {logo,name,grade,unit,address,startDate,endDate="present"}
 

@@ -13,14 +13,14 @@ const certificates = [
         issuer: "Google",
         date: "November 9, 2023",
         logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png?auto=format%2Ccompress&dpr=2&w=80&h=80",
-        redirectLink:"https://www.coursera.org/account/accomplishments/verify/VGYNLMNYPXKA"
+        redirectLink:"https://www.coursera.org/account/accomplishments/verify/L3F8L5FJB5RT"
     },
     {
       title: "Introduction to Hardware and Operating Systems",
       issuer: "IBM",
       date: "November 9, 2023",
       logo: "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F406e0eac-4809-48b7-acd9-ff20f112b72e_1080x1080.jpeg",
-      redirectLink:"https://www.coursera.org/account/accomplishments/verify/L3F8L5FJB5RT"
+      redirectLink:"https://www.coursera.org/account/accomplishments/verify/VGYNLMNYPXKA"
   },
     {
         title: "Dynamic Programming, Greedy Algorithms",
@@ -152,8 +152,8 @@ const certificates = [
       title: "Communication Strategies for a Virtual Age",
       issuer: "University of Toronto",
       date: "April 3, 2023",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqW-WO7lKRi5KoLgy1aNHCk-A-3oGEjhRVw&s",
-      redirectLink:"https://www.coursera.org/account/accomplishments/verify/SXI7192BQDCW"
+      logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/04/1df8943d27a485a986a3ebf10c83d9/UofT-Crest-Square.png?auto=format%2Ccompress&dpr=2&w=80&h=80",
+      redirectLink:"https://www.coursera.org/account/accomplishments/verify/53TAT732D57Q"
     }
     
   ];

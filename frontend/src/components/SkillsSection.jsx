@@ -7,8 +7,9 @@ import {
   FaReact,
   FaPython,
   FaGit,
+  FaJava,
   FaNodeJs,
-  FaFigma,
+  FaPhp
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -16,11 +17,17 @@ import {
   SiTailwindcss,
   SiC,
   SiCplusplus,
-  SiDjango,
+  SiExpress,
   SiMysql,
   SiFirebase,
   SiSupabase,
+  SiMongodb,
+  SiPostgresql,
+  SiAppwrite,
+  SiDocker,
+  SiGithub,
 } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const skillsData = {
   "Programming Languages": [
@@ -29,24 +36,29 @@ const skillsData = {
     { name: "Python", icon: <FaPython size={24} /> },
     { name: "Javascript", icon: <FaJs size={24} /> },
     { name: "Typescript", icon: <SiTypescript size={24} /> },
+    { name: "Java", icon: <FaJava size={24} /> },
+    {name: "PHP", icon:<FaPhp size={24}/>}
   ],
   "Frontend Technologies": [
     { name: "HTML", icon: <FaHtml5 size={24} /> },
     { name: "CSS", icon: <FaCss3Alt size={24} /> },
     { name: "React.js", icon: <FaReact size={24} /> },
-    { name: "Next.js", icon: <SiNextdotjs size={24} /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss size={24} /> },
   ],
   "Backend Technologies": [
     { name: "Node.js", icon: <FaNodeJs size={24} /> },
-    { name: "Django", icon: <SiDjango size={24} /> },
+    { name: "Express.Js", icon: <SiExpress size={24} /> },
     { name: "MySQL", icon: <SiMysql size={24} /> },
     { name: "Firebase", icon: <SiFirebase size={24} /> },
-    { name: "Supabase", icon: <SiSupabase size={24} /> },
+    { name: "MongoDB", icon: <SiMongodb size={24} /> },
+    { name: "PostgreSQL", icon: <SiPostgresql size={24} /> },
+    { name: "Appwrite", icon: <SiAppwrite size={24} /> },
   ],
   "DevOps & Tools": [
     { name: "Git", icon: <FaGit size={24} /> },
-    { name: "Figma", icon: <FaFigma size={24} /> },
+    { name: "Docker", icon: <SiDocker size={24} /> },
+    { name: "GitHub", icon: <SiGithub size={24} /> },
+    { name: "VS Code", icon: <VscVscode size={24} /> },
   ],
 };
 

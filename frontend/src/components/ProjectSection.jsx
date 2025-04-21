@@ -2,7 +2,7 @@ import React from 'react';
 
 const projects = [
     {
-        title: 'Ride pooling platform [on progress]',
+        title: 'Ride Pooling Platform [on progress]',
         description:
             'This web app is built using React.js, TailwindCSS, MongoDB, and Socket.IO. It allows users to book rides in real-time and drivers to accept them. It features live ride status updates, user/driver authentication, and a responsive interface.',
         image: "https://i0.wp.com/m-rides.com/pk/wp-content/uploads/2023/02/M-Rides-Booking-App.jpg?fit=1170%2C843&ssl=1", 
@@ -11,7 +11,7 @@ const projects = [
         live: '',
     },
     {
-        title: 'Question-search',
+        title: 'Question-Search',
         description:
             'This web app is built using React.js and Mongodb. It allows users to search specific questions efficiently over 100k+ questions with different categories. The app is designed to be user-friendly and provides a seamless experience for users looking for specific Question.',
         image: "https://cdn.pixabay.com/photo/2014/05/18/18/25/icon-347230_1280.png", 
@@ -20,7 +20,7 @@ const projects = [
         live: 'https://question-search.vercel.app/',
     },
     {
-        title: 'Digital-wallet',
+        title: 'Digital-Wallet',
         description:
             'This web app is built using React.js and Mongodb. It allows registered users to send and receive dummy money/coin easily. The app is designed to be user-friendly and provides a seamless & hassle free experience.',
         image: 'https://cdn.pixabay.com/photo/2022/05/10/04/10/money-transfer-7185873_1280.png',
@@ -65,7 +65,7 @@ const projects = [
     live: '',
   },
   {
-    title: 'static Youtube clone',
+    title: 'Static Youtube Frontend Clone',
     description:
     'This web app is built using HTML, CSS, and JavaScript. I created this project to gain experience in building large-scale tech interfaces by replicating the UI of a YouTube clone.',
     image: 'https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500',

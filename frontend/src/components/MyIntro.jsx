@@ -12,7 +12,7 @@ const MyIntro = () => {
     `My interest in computers started at a very young age. I remember my first website that I made years ago, which had a terrible interface and design. Its purpose was to download movies and other stuff — unfortunately, I no longer have the code, but it remains a memorable experience.`,
     `From a young age, I was eager to learn as much as possible. One of my earliest experiences with computers was creating my own website, which (again) had a terrible interface and design. Despite this, I was excited to create something on my own and share it online.`,
     `After this, I became more interested in web development and began to find resources to learn more. I watched tutorials, read articles, and built projects. The first programming language I learned was C, and from there, I also learned Java and C++. I also explored databases like Mongodb (my favorite so far), MySQL, and Postgres.`,
-    `In addition to coding, I enjoy playing sports like Cricket and Football . I also enjoy drama movies and web series when I get free time.`,
+    `In addition to coding, I enjoy playing sports like Cricket, Football and badminton . I also enjoy watching drama movies and web series when I get free time.`,
     `If you asked me what stack I prefer, I’d say:`,
     `These three tools let you do almost anything! I love building with them — whether it's a static site, a blog, or a full-stack web app.`,
     `Feel free to check out my portfolio. If you have any questions, you can reach out to me on Twitter or email me at Goutamhzb1@gmail.com. I’m always open to discussing new projects or opportunities.`,

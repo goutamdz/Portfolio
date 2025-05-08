@@ -10,8 +10,8 @@ const Contact = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false); // State for loading
-  const [success, setSuccess] = useState(false); // State for success message
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -119,7 +119,7 @@ const Contact = () => {
               <button
                 type="submit"
                 className="bg-gray-800 hover:bg-teal-600 text-white py-2 px-6 rounded-xl shadow-md transition duration-300 cursor-pointer"
-                disabled={loading} // Disable button while loading
+                disabled={loading}
               >
                 {loading ? "Sending..." : "Send"}
               </button>

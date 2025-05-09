@@ -107,7 +107,7 @@ const Contact = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-xl shadow-md transition duration-300"
+                className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-xl shadow-md transition duration-300 cursor-pointer"
               >
                 <FaPaperPlane />
                 {loading ? "Sending..." : "Send Message"}

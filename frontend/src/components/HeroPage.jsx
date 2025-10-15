@@ -62,7 +62,7 @@ const HeroPage = () => {
           transition={{ duration: 0.8, ease: "easeInOut", delay: 0.2 }}
           className="mt-2 text-lg md:text-xl text-gray-400"
         >
-          Pre-final year student{" "}
+          final year student{" "}
           <span className="text-[#6c8cff]">
             @Lovely Professional University
           </span>

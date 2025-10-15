@@ -8,36 +8,26 @@ const fadeUp = {
 
 const MyIntro = () => {
   const paragraphs = [
-    `Hello! I am Goutam Kumar, a Full Stack Web developer from India. As a developer, I am deeply interested in both design and coding, and I enjoy using React.js to build web application interfaces and functionality. I am pursuing my Bachelor's degree in Computer Science.`,
-  
-    `My interest in computers started at a very young age. I remember my first website that I made years ago, which had a terrible interface and design. Its purpose was to download movies and other stuff — unfortunately, I no longer have the code, but it remains a memorable experience.`,
-  
-    `From a young age, I was eager to learn as much as possible. One of my earliest experiences with computers was creating my own website, which (again) had a terrible interface and design. Despite this, I was excited to create something on my own and share it online.`,
-  
-    `After this, I became more interested in web development and began to find resources to learn more. I watched tutorials, read articles, and built projects. The first programming language I learned was C, and from there, I also learned Java and C++. I also explored databases like MongoDB (my favorite so far), MySQL, and PostgreSQL.`,
-  
-    `In addition to coding, I enjoy playing sports like Cricket, Football, and Badminton. I also enjoy watching drama movies and web series when I get free time.`,
-  
-    `If you asked me what stack I prefer, I’d say:`,
-  
-    // Instead of a single <li> here, we will make it an array separately!
-    [
-      <li key="framework">
-        <span className="font-semibold text-white">Framework:</span> React.js
-      </li>,
-      <li key="database">
-        <span className="font-semibold text-white">Database:</span> MongoDB
-      </li>,
-      <li key="css">
-        <span className="font-semibold text-white">CSS:</span> TailwindCSS
-      </li>,
-    ],
-  
-    `These three tools let you do almost anything! I love building with them — whether it's a static site, a blog, or a full-stack web app.`,
-  
-    `Feel free to check out my portfolio. If you have any questions, you can reach out to me on Twitter or email me at Goutamhzb1@gmail.com. I’m always open to discussing new projects or opportunities.`,
-  ];
-  
+    `Hi, I’m Goutam Kumar — a Full Stack Developer and DevOps enthusiast from Jharkhand, India — someone who believes that technology is not just about writing code, but about creating meaningful experiences that solve real problems.`,
+
+    `My journey with computers began out of curiosity. As a kid, I was fascinated by how websites worked. I still remember building my very first website — it looked terrible, but for me, it was magic. That moment sparked a lifelong interest in understanding how technology connects people and ideas.`,
+
+    `As I grew, curiosity turned into passion. I started learning programming with C, then explored C++, Java, JavaScript, and later C#. Every new language felt like unlocking a new way to think. Over time, I found my real excitement in web development — the space where logic meets creativity. I began building projects with React.js, Node.js, Express, PostgreSQL, PHP, EJS, Django, and MongoDB, and discovered the joy of turning concepts into living, interactive applications.`,
+
+    `I also developed a strong interest in DevOps — learning how to make development more efficient and scalable. Tools like AWS, Git, Puppet, Ansible, and Docker became part of my daily workflow, helping me understand the bigger picture of software delivery and deployment.`,
+
+    `At the same time, I wanted to become stronger at solving problems, so I dove deep into Data Structures and Algorithms. So far, I’ve solved 800+ DSA problems across LeetCode and GeeksforGeeks, which taught me how to think critically and write optimized code under constraints.`,
+
+    `Currently, I’m in my final year of Computer Science, continuing to build, learn, and explore. Beyond tech, I have a deep interest in finance — I love studying how technology is reshaping the financial world, from markets to digital payment systems.`,
+
+    `When I’m not coding, you’ll probably find me on a cricket field, playing football, or watching a drama series to unwind. I believe growth is a never-ending process — every bug fixed, every project built, and every failure learned from is another step forward.`,
+
+    `For me, being a developer isn’t just a career — it’s a journey of curiosity, creativity, and constant improvement.`,
+
+    `Feel free to check out my portfolio. If you have any questions, you can reach out to me on Twitter or email me at Goutamhzb1@gmail.com. I’m always open to discussing new projects or opportunities.`
+  ];                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+
 
   return (
     <section className="py-20 px-4 md:px-12 bg-[#0d0d0d] text-white">
@@ -57,7 +47,7 @@ const MyIntro = () => {
             </motion.p>
           ))}
 
-          
+
 
           {/* Twitter/Email links (animated too) */}
           <motion.p

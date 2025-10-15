@@ -2,9 +2,17 @@ import React from 'react';
 
 const projects = [
     {
-        title: 'Ride Pooling Platform [on progress]',
+        title:'Personal Expense Tracker',
+        description:'This web app helps users track their expenses and manage their budget effectively.',
+        image:'https://m.media-amazon.com/images/I/610d4LTTpvL._UF1000,1000_QL80_.jpg',
+        tags: ['React.js', 'TailwindCSS', 'Node.js', 'Express.js', 'MongoDB', 'Axios'],
+        github: 'https://github.com/goutamdz/expense-tracker',
+        live: 'https://manageyourexpense.vercel.app',
+    },
+    {
+        title: 'Ride Pooling Platform',
         description:
-            'This web app is built using React.js, TailwindCSS, MongoDB, and Socket.IO. It allows users to book rides in real-time and drivers to accept them. It features live ride status updates, user/driver authentication, and a responsive interface.',
+            'It allows users to book rides in real-time and drivers to accept them. It features live ride status updates, user/driver authentication, and a responsive interface.',
         image: "https://i0.wp.com/m-rides.com/pk/wp-content/uploads/2023/02/M-Rides-Booking-App.jpg?fit=1170%2C843&ssl=1", 
         tags: ['React.js', 'TailwindCSS', 'MongoDB','Socket.IO','Express.js', 'Node.js', 'Axios'],
         github: 'https://github.com/goutamdz/book-your-ride',
@@ -13,7 +21,7 @@ const projects = [
     {
         title: 'Question-Search',
         description:
-            'This web app is built using React.js and Mongodb. It allows users to search specific questions efficiently over 100k+ questions with different categories. The app is designed to be user-friendly and provides a seamless experience for users looking for specific Question.',
+            'It allows users to search specific questions efficiently over 100k+ questions with different categories. The app is designed to be user-friendly and provides a seamless experience for users looking for specific Question.',
         image: "https://cdn.pixabay.com/photo/2014/05/18/18/25/icon-347230_1280.png", 
         tags: ['React.js', 'Tailwind CSS', 'MongoDb', 'Express.js', 'Node.js', 'Axios'],
         github: 'https://github.com/goutamdz/Quest-Search',
@@ -22,7 +30,7 @@ const projects = [
     {
         title: 'Digital-Wallet',
         description:
-            'This web app is built using React.js and Mongodb. It allows registered users to send and receive dummy money/coin easily. The app is designed to be user-friendly and provides a seamless & hassle free experience.',
+            'It allows registered users to send and receive dummy money/coin easily. The app is designed to be user-friendly and provides a seamless & hassle free experience.',
         image: 'https://cdn.pixabay.com/photo/2022/05/10/04/10/money-transfer-7185873_1280.png',
         tags: ['React.js', 'Tailwind CSS', 'MongoDb', 'Express.js', 'Node.js', 'Axios',"Mongodb Transactions"],
         github: 'https://github.com/goutamdz/Digital-Wallet',
@@ -31,7 +39,7 @@ const projects = [
     {
         title: 'Room Listing Web App',
         description:
-            'This web app is built using Ejs, CSS, Bootstrap, JavaScript and Mongodb. It allows users to list their rooms for rent and search for available rooms. The app is designed to be user-friendly and provides a seamless experience for users looking for accommodation.',
+            'It allows users to list their rooms for rent and search for available rooms. The app is designed to be user-friendly and provides a seamless experience for users looking for accommodation.',
         image: 'https://i.ytimg.com/vi/Znt3LAzqkXw/maxresdefault.jpg',
         tags: ['Ejs', 'CSS', 'MongoDb', 'Express.js', 'Node.js', 'JavaScript',"Bootstrap"],
         github: 'https://github.com/goutamdz/RoomNearBy',
@@ -40,7 +48,7 @@ const projects = [
     {
         title: 'Discuss',
         description:
-            'This web app is built using PHP, HTML, CSS, Bootstrap, JavaScript and MySQL. It allows users to discuss various topics and share their opinions. The app is designed to be user-friendly and provides a seamless experience for users looking to engage in discussions.',
+            'It allows users to discuss various topics and share their opinions. The app is designed to be user-friendly and provides a seamless experience for users looking to engage in discussions.',
         image: 'https://www.educateagainsthate.com/wp-content/uploads/2022/05/Lets-Discuss-yellow.png',
         tags: ['PHP',"HTML", 'CSS', 'MySQL', 'Bootstrap','JavaScript'],
         github: 'https://github.com/goutamdz/Discuss',
@@ -63,6 +71,14 @@ const projects = [
     tags: ['React.js', 'TalwindCSS', 'AppWrite', "TinyMCE"],
     github: 'https://github.com/goutamdz/Blog',
     live: '',
+  },
+  {
+    title:'Tic-Tac-Toe Game',
+    description:'This is a simple Tic-Tac-Toe game built using HTML, CSS, and JavaScript. It allows two players to play the game on the same device, taking turns to place their marks (X and O) on a 3x3 grid. The game checks for a win or a draw after each move and displays the result.',
+    image:'https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg',
+    tags: ['HTML','CSS','JavaScript'],
+    github: 'https://github.com/goutamdz/Tic-Tac-Toe',
+    live: 'https://goutamdz.github.io/Tic-Tac-Toe/',
   },
   {
     title: 'Static Youtube Frontend Clone',

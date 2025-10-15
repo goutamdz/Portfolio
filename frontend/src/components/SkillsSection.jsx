@@ -1,4 +1,6 @@
 import React from "react";
+import { FaAws } from "react-icons/fa";
+import { SiVercel } from "react-icons/si";
 import { motion } from "framer-motion";
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGit, FaJava, FaNodeJs, FaPhp
@@ -24,23 +26,29 @@ const skillsData = {
   "Frontend Technologies": [
     { name: "HTML", icon: <FaHtml5 size={24} /> },
     { name: "CSS", icon: <FaCss3Alt size={24} /> },
+    {name:"Bootstrap", icon:<FaCss3Alt size={24}/>},
+    {name:"EJS", icon:<FaNodeJs size={24}/>},
     { name: "React.js", icon: <FaReact size={24} /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss size={24} /> },
   ],
   "Backend Technologies": [
     { name: "Node.js", icon: <FaNodeJs size={24} /> },
+    {name:"Django", icon:<FaPython size={24}/>},
     { name: "Express.Js", icon: <SiExpress size={24} /> },
     { name: "MySQL", icon: <SiMysql size={24} /> },
     { name: "Firebase", icon: <SiFirebase size={24} /> },
     { name: "MongoDB", icon: <SiMongodb size={24} /> },
     { name: "PostgreSQL", icon: <SiPostgresql size={24} /> },
     { name: "Appwrite", icon: <SiAppwrite size={24} /> },
+    {name:"Prisma", icon:<SiPostgresql size={24}/>},
   ],
   "DevOps & Tools": [
     { name: "Git", icon: <FaGit size={24} /> },
     { name: "Docker", icon: <SiDocker size={24} /> },
     { name: "GitHub", icon: <SiGithub size={24} /> },
     { name: "VS Code", icon: <VscVscode size={24} /> },
+    {name:"AWS", icon: <FaAws size={24} />},
+    {name:"Vercel", icon:<SiVercel size={24} />}
   ],
 };
 

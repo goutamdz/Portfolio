@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAws } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import { SiVercel } from "react-icons/si";
 import { motion } from "framer-motion";
 import {
@@ -48,7 +49,8 @@ const skillsData = {
     { name: "GitHub", icon: <SiGithub size={24} /> },
     { name: "VS Code", icon: <VscVscode size={24} /> },
     {name:"AWS", icon: <FaAws size={24} />},
-    {name:"Vercel", icon:<SiVercel size={24} />}
+    {name:"Vercel", icon:<SiVercel size={24} />},
+    {name:"Postman", icon:<SiPostman size={24} />}
   ],
 };
 

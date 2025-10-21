@@ -22,9 +22,7 @@ const MyIntro = () => {
 
     `When I’m not coding, you’ll probably find me on a cricket field, playing football, or watching a drama series to unwind. I believe growth is a never-ending process — every bug fixed, every project built, and every failure learned from is another step forward.`,
 
-    `For me, being a developer isn’t just a career — it’s a journey of curiosity, creativity, and constant improvement.`,
-
-    `Feel free to check out my portfolio. If you have any questions, you can reach out to me on Twitter or email me at Goutamhzb1@gmail.com. I’m always open to discussing new projects or opportunities.`
+    `For me, being a developer isn’t just a career — it’s a journey of curiosity, creativity, and constant improvement.`
   ];                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
 

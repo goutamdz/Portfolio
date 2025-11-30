@@ -86,7 +86,7 @@ const HeroPage = () => {
           className="mt-6 px-6 py-2 border border-white rounded-md bg-transparent text-white cursor-pointer hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2 mx-auto"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/14fZMMKqNThCibShbJlTRiGW8jzuAI6rf/view?usp=sharing",
+              "https://drive.google.com/file/d/1nsSJIobumMtf1qC2O-3MEfgtxhd30vTG",
               "_blank"
             )
           }

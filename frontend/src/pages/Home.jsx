@@ -7,11 +7,12 @@ import About from '../components/MyIntro'
 
 function Home() {
   return (
-    <div>
-        <Navbar/>
-        <HeroPage/>
-        <SkillsSection/>
-        <Contact/>
+    <div className="bg-[#05060f] text-white">
+      <Navbar />
+      <HeroPage />
+      <About />
+      <SkillsSection />
+      <Contact />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import MyIntro from '../components/MyIntro'
+import ExperienceSection from '../components/ExperienceSection'
 import Education from '../components/Education'
 
 function About() {
@@ -8,6 +9,7 @@ function About() {
     <div>
         <Navbar/>
         <MyIntro/>
+        <ExperienceSection/>
         <Education/>
     </div>
   )

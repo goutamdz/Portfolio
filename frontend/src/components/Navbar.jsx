@@ -8,50 +8,34 @@ function Navbar() {
   let [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div
-      className="flex justify-between items-center pt-1 pb-1 md:justify-evenly bg-gradient-to-r from-[#0f0f0f] via-[#1a1a1a] to-[#0f0f0f] text-[#FFFAFA] w-full fixed z-50 shadow-lg transition-all duration-300"
-    >
-      <div>
-        <h1 className="ml-5">
-          <img
-            src={logo}
-            alt="logo"
-            className="w-15  rounded-full transition-transform duration-300"
-          />
-        </h1>
+    <div className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/40 border-b border-white/10 text-white shadow-2xl">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="logo" className="h-12 w-12 rounded-full border border-white/10 shadow-xl" />
+          <div>
+            <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Goutam Kumar</p>
+            <p className="text-base font-semibold">Full Stack Developer (Backend-focused)</p>
+          </div>
+        </div>
+
+        <div className="hidden md:flex items-center gap-6">
+          <FeaturedLink className={'flex gap-6'} />
+          <SocialLink className={'flex gap-4'} />
+        </div>
       </div>
 
-      {/* for mobile view */}
-      <div
-        className="md:hidden"
-        onClick={() => {
-          setIsOpen(!isOpen);
-        }}
-      >
-        <i className="ri-menu-line mr-5 text-2xl cursor-pointer transition-colors duration-300" />
-      </div>
       {isOpen && (
-        <div className="md:hidden absolute top-0 w-full h-screen bg-[#1a1a1a] px-0 mt-3">
-          <div className="flex justify-between items-center p-5">
-            <i
-              className="ri-close-line text-3xl cursor-pointer transition-colors duration-300"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            ></i>
+        <div className="md:hidden border-t border-white/10 bg-[#080a12]/95 p-5">
+          <div className="flex items-center justify-between">
+            <p className="text-sm uppercase tracking-[0.35em] text-slate-400">Menu</p>
+            <i className="ri-close-line text-3xl cursor-pointer" onClick={() => setIsOpen(false)} />
           </div>
-          <div className="flex justify-center flex-col items-center">
-            <h1 className="text-xl mt-10 mb-2 border-b-2">Featured Links</h1>
-            <FeaturedLink className={'flex-col transition-transform duration-300'} />
-            <h1 className="text-xl mt-10 mb-2 border-b-2">Social Links</h1>
-            <SocialLink className={'flex-col transition-transform duration-300'} />
+          <div className="mt-8 flex flex-col gap-8">
+            <FeaturedLink className={'flex flex-col gap-4'} />
+            <SocialLink className={'flex flex-col gap-4'} />
           </div>
         </div>
       )}
-
-      {/* for desktop view */}
-      <FeaturedLink className={'hidden md:flex gap-4 transition-colors duration-300'} />
-      <SocialLink className={'hidden md:flex gap-4 transition-colors duration-300'} />
     </div>
   );
 }

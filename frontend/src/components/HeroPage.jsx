@@ -52,7 +52,7 @@ const HeroPage = () => {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
             <button
-              onClick={() => window.open("https://drive.google.com/file/d/1nsSJIobumMtf1qC2O-3MEfgtxhd30vTG", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1sZZzG1VvK1PI2_NJ8SMMwv0x4G8dTiVP/view", "_blank")}
               className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-8 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition duration-300 hover:scale-[1.02]"
             >
               Download Resume
